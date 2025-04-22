@@ -9,10 +9,10 @@ size = Vector2(465.854, 128)
 [node name="Mapa" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_70f7c")]
-position = Vector2(536, 396)
+position = Vector2(551, 763)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(584, 624)
+position = Vector2(577, 1001)
 scale = Vector2(2.46, 2.46)
 metadata/_edit_group_ = true
 
@@ -23,5 +23,4 @@ texture = ExtResource("2_q8ihy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-2.43903, 0)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_lrjei")
