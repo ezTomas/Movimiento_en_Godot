@@ -7,10 +7,14 @@
 size = Vector2(128, 128)
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(839, 464)
 script = ExtResource("1_onrkg")
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_4flbx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_onrkg")
+
+[node name="Camera2D" type="Camera2D" parent="."]
